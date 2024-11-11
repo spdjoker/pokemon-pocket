@@ -83,7 +83,7 @@ def main():
         series_data[5] = False
     
     with columns[1]:
-        selected_view = st.selectbox("Missing", ["Hide", "Show Entry #", "Show Art"])
+        selected_view = st.selectbox("Missing", ["Hide", "Show Entry #", "Show Art"], index = 1)
 
 
     inject_css()
