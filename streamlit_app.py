@@ -1,8 +1,5 @@
-import requests
 import streamlit as st
 import pandas as pd
-from PIL import Image
-from io import BytesIO
 
 @st.cache_data
 def load_data(path: str):
