@@ -78,7 +78,7 @@ def main():
         series_data[3] = False
         series_data[4] = False
         series_data[5] = False
-        series_data[7] = False
+        series_data[8] = False
     
     with columns[1]:
         selected_view = st.selectbox("Missing", ["Hide", "Show Entry #", "Show Art"], index = 1)
